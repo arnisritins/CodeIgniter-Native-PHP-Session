@@ -8,7 +8,7 @@
 class CI_Session
 {
 
-  private $CI;
+	private $CI;
 	private $flashdata_key = 'flash';
 	private $now;
 	
@@ -82,8 +82,8 @@ class CI_Session
 		if( ! isset($_SESSION))
 		{
 			// Starts session
-            session_start();
-        }
+			session_start();
+		}
 		
 		// Checks if session is created and valid
 		if( ! $this->sess_read())
